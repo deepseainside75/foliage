@@ -8,7 +8,7 @@
 			<xs:extension base="lc:LandCoverUnitType">
 				<xs:sequence>
 					<xs:element name="authorizedArea" type="xs:double" minOccurs="0"/>
-					<xs:element name="applicationType" type="xs:string" minOccurs="0"/>
+					<xs:element name="applicationType" type="ext:TipoIstanzaType" minOccurs="0"/>
 					<xs:element name="dominantSpecies" type="xs:string" minOccurs="0"/>
 					<xs:element name="secondarySpecies" type="xs:string" minOccurs="0"/>
 					<xs:element name="forestStructure" type="xs:string" minOccurs="0"/>
@@ -18,4 +18,12 @@
 	</xs:complexType>
 	<!-- Elemento root opzionale -->
 	<xs:element name="ExtendedLandCoverUnit" type="ext:ExtendedLandCoverUnitType"/>
+
+ <!-- Definizione dei tipi specifici -->
+  <xs:simpleType name="TipoIstanzaType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Istanza sopra soglia"/>
+      <xs:enumeration value="Istanza sotto soglia"/>
+    </xs:restriction>
+  </xs:simpleType>
 </xs:schema>
