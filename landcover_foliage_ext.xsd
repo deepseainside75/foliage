@@ -130,19 +130,45 @@
   
   <xs:simpleType name="ForestryType">
     <xs:restriction base="xs:string">
-      <xs:enumeration value="Cipresso"/>
-      <xs:enumeration value="Pino silvestre"/>
-      <xs:enumeration value="Pino marittimo"/>
-      <xs:enumeration value="Abete bianco"/>
-      <xs:enumeration value="Abete rosso"/>
-      <xs:enumeration value="Larice"/>
-      <xs:enumeration value="Faggio"/>
-      <xs:enumeration value="Quercia"/>
-      <xs:enumeration value="Castagno"/>
-      <xs:enumeration value="Robinia"/>
-      <xs:enumeration value="Ailanto"/>
-      <xs:enumeration value=""/>
-    </xs:restriction>
+			<xs:enumeration value="Acero campestre"/>
+			<xs:enumeration value="Acero di monte"/>
+			<xs:enumeration value="Acero d’Ungheria"/>
+			<xs:enumeration value="Betulla"/>
+			<xs:enumeration value="Carpino bianco"/>
+			<xs:enumeration value="Carpino nero"/>
+			<xs:enumeration value="Castagno"/>
+			<xs:enumeration value="Cerro"/>
+			<xs:enumeration value="Ciliegio selvatico"/>
+			<xs:enumeration value="Cipresso"/>
+			<xs:enumeration value="Corbezzolo"/>
+			<xs:enumeration value="Eucalipto spp"/>
+			<xs:enumeration value="Faggio"/>
+			<xs:enumeration value="Farnetto"/>
+			<xs:enumeration value="Farnia"/>
+			<xs:enumeration value="Fragno"/>
+			<xs:enumeration value="Frassino maggiore"/>
+			<xs:enumeration value="Ilatro comune"/>
+			<xs:enumeration value="Leccio"/>
+			<xs:enumeration value="Nocciolo"/>
+			<xs:enumeration value="Olmo comune"/>
+			<xs:enumeration value="Ontano napoletano"/>
+			<xs:enumeration value="Ontano nero"/>
+			<xs:enumeration value="Orniello"/>
+			<xs:enumeration value="Pino domestico"/>
+			<xs:enumeration value="Pino d’Aleppo"/>
+			<xs:enumeration value="Pino laricio"/>
+			<xs:enumeration value="Pino marittimo"/>
+			<xs:enumeration value="Pino nero"/>
+			<xs:enumeration value="Pioppo nero"/>
+			<xs:enumeration value="Pioppo tremulo"/>
+			<xs:enumeration value="Robinia"/>
+			<xs:enumeration value="Roverella"/>
+			<xs:enumeration value="Rovere"/>
+			<xs:enumeration value="Salicone"/>
+			<xs:enumeration value="Tiglio selvatico"/>
+			<xs:enumeration value="Sughera"/>
+			<xs:enumeration value=""/>
+			</xs:restriction>	
   </xs:simpleType>
   
   <xs:simpleType name="GovernanceType">
