@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:lc="http://inspire.ec.europa.eu/schemas/lcv/4.0" xmlns:ext="https://portal.lifefoliage.eu/inspire/forest-extension" targetNamespace="https://portal.lifefoliage.eu/inspire/forest-extension" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:lc="http://inspire.ec.europa.eu/schemas/lcv/4.0" xmlns:ext="https://raw.githubusercontent.com/deepseainside75/foliage/refs/heads/main" targetNamespace="https://raw.githubusercontent.com/deepseainside75/foliage/refs/heads/main" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<!-- Importa lo schema INSPIRE Land Cover -->
 	<xs:import namespace="http://inspire.ec.europa.eu/schemas/lcv/4.0" schemaLocation="http://inspire.ec.europa.eu/schemas/lcv/4.0/LandCoverVector.xsd"/> 
 	<!-- Estensione del tipo LandCoverUnit -->
